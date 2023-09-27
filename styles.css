@@ -1,31 +1,50 @@
 html {
   font-family: "Rubik", sans-serif;
-  background-color: #323347;
+  background-color: #2a2d39;
   width: 100%;
   height: 100vh;
-  max-width: 756px;
 }
 
-.name-title {
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+#name-title {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   margin-top: 50px;
-  color: #ff943f;
-  font-weight: lighter;
+  margin-left: 50px;
+  color: #f0e2d6;
+  font-weight: 300;
+}
+
+#profile-title {
+  font-size: 70px;
+  font-weight: 300;
 }
 
 .main-img {
+  padding: 50px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
+#profile-presentation {
+  border-radius: 5px;
+  color: #f0e2d6;
+}
+
 #profile-pic {
-  width: 300px;
   border-radius: 15px;
-  margin-top: 25px;
-  border: 1px solid #0d7ebf;
+  border: 1px solid #010b11;
 }
 
 #links-article {
@@ -35,6 +54,7 @@ html {
 }
 
 .contact-links {
+  margin-left: 350px;
   border-radius: 20px;
   padding: 50px;
   background-color: #4e4c5b;
