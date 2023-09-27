@@ -1,39 +1,47 @@
-html {
+html,
+body {
   font-family: "Rubik", sans-serif;
-  background-color: #2a2d39;
-  width: 100%;
+  background-color: #ffffff;
+  width: 100vw;
   height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 
-.hero {
-  max-width: 756px;
+.base-section {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-block: 48px;
 }
-#hero-wrapper {
+
+.base-article {
+  max-width: 756px;
   display: flex;
   align-items: center;
+}
+
+.hero {
+  background-color: rgb(54, 61, 64);
 }
 
 #name-title {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 50px;
   margin-left: 50px;
-  color: #f0e2d6;
-  font-weight: 300;
+  color: rgb(75, 79, 80);
+  font-weight: 100;
 }
 
 #profile-title {
   font-size: 60px;
   font-weight: 300;
-  margin-left: 130px;
+  margin-block: 0;
 }
 
 .main-img {
-  padding: 50px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -41,33 +49,32 @@ html {
 
 #profile-presentation {
   border-radius: 5px;
-  color: #f0e2d6;
+  color: #afaca9;
 }
 
 #presentation-text {
   font-size: 16px;
   font-weight: 200;
-  margin-left: 130px;
 }
 
 #profile-pic {
   width: 300px;
   border-radius: 5px;
-  border: 1px solid #010b11;
+  border: 1px solid #414142;
 }
 
 #my-projects-btn {
+  font-family: "Rubik", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 185px;
-  margin-top: 60px;
   border-radius: 20px;
   padding: 20px 20px;
   font-size: 20px;
   background-color: rgb(86, 105, 144);
   color: #f0e2d6;
   border: none;
+  margin-top: 30px;
 }
 
 #my-projects-btn:hover {
@@ -82,13 +89,10 @@ html {
 }
 
 .contact-links {
-  margin-left: 100px;
   border-radius: 20px;
   padding: 20px;
-  background-color: #4e4c5b;
-  color: #e9e7dd;
-
-  margin-top: 100px;
+  background-color: rgb(54, 61, 64);
+  color: #afaca9;
   display: flex;
   align-items: center;
   justify-content: center;
