@@ -17,13 +17,19 @@ body {
 }
 
 .base-article {
-  max-width: 756px;
+  max-width: 1024px;
   display: flex;
   align-items: center;
 }
 
 .hero {
   background-color: rgb(54, 61, 64);
+}
+
+.hero__content {
+  flex-direction: column-reverse;
+  padding-inline: 88px;
+  gap: 16px;
 }
 
 .header__title {
@@ -33,6 +39,7 @@ body {
   margin-left: 50px;
   color: rgb(75, 79, 80);
   font-weight: 100;
+  padding: 30px;
 }
 
 .hero__title {
@@ -55,6 +62,7 @@ body {
 .hero__copy {
   font-size: 16px;
   font-weight: 200;
+  padding-block: 20px;
 }
 
 .hero__pic {
@@ -65,16 +73,12 @@ body {
 
 .hero__btn {
   font-family: "Rubik", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 20px;
   padding: 20px 20px;
   font-size: 20px;
   background-color: rgb(86, 105, 144);
   color: #f0e2d6;
   border: none;
-  margin-top: 30px;
 }
 
 .hero__btn:hover {
@@ -91,8 +95,8 @@ body {
 .contact__links {
   border-radius: 10px;
   padding: 20px;
-  background-color: rgb(54, 61, 64);
-  color: #afaca9;
+  background-color: #afaca9;
+  color: rgb(75, 79, 80);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,4 +110,9 @@ li {
 svg {
   width: 20px;
   margin-right: 5px;
+  padding-inline: 10px;
+}
+
+#gitHub-icon {
+  margin-top: 20px;
 }
