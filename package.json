@@ -1,0 +1,26 @@
+{
+  "name": "alexascript-webpage",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.3",
+    "parcel": "^2.10.3",
+    "posthtml-include": "^1.7.4"
+  },
+  "scripts": {
+    "dev": "rm -rf .parcel-cache && npx parcel src/index.html",
+    "build": "rm -rf .parcel-cache && npx parcel build src/index.html --dist-dir output",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexascript/alexascript-webpage.git"
+  },
+  "author": "Alexandra Zapata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexascript/alexascript-webpage/issues"
+  },
+  "homepage": "https://github.com/alexascript/alexascript-webpage#readme"
+}

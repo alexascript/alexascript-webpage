@@ -1,21 +1,37 @@
-Paleta de colores
+# Alexascript Homepage
 
-#A3586D - purple red
-#5C4A72 - purple
-#F3B05A -yellow
-#F4874B -orange
-#F46A4E - reddy orange
+## Hot to install project?
 
-#534255 - purple brown
-#f2b183 light orange
-#8e9dc7 skyblue
-#f5ebe0 - cloud white
-#a15e61 - sunsetred
+```bash
+npm install
+```
 
-#323347 sunset purple dark
-#4e4c5b sunset purple gray
-#ef652d bright orange
-#fe9d00 yellow orange
-#ffc002 yellow
-#ffea7b cream
-#ff943f profile orange
+## How to run dev server?
+
+```bash
+npm run dev
+```
+
+## How to stop dev server?
+
+```bash
+ ctrl + c
+```
+
+or
+
+```bash
+ cmd + c
+```
+
+## how to build?
+
+```bash
+npm run build
+```
+
+## more info
+
+- (Parcel)[https://parceljs.org/]
+- (Sass)[https://sass-lang.com/]
+- (PostHTML - Include)[https://github.com/posthtml/posthtml-include]

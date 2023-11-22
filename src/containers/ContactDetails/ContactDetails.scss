@@ -1,0 +1,30 @@
+.links-article {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact__links {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #afaca9;
+  color: rgb(75, 79, 80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+svg {
+  width: 20px;
+  margin-right: 5px;
+  padding-inline: 10px;
+}
+
+#gitHub-icon {
+  margin-top: 20px;
+}
