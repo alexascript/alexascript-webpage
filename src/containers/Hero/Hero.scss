@@ -1,0 +1,43 @@
+.hero {
+  background-color: rgb(54, 61, 64);
+
+  &__content {
+    flex-direction: column-reverse;
+    padding-inline: 88px;
+    gap: 16px;
+  }
+
+  &__title {
+    font-size: 60px;
+    font-weight: 300;
+    margin-block: 0;
+  }
+
+  &__img__div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__presentation {
+    border-radius: 5px;
+    color: #afaca9;
+  }
+
+  &__copy {
+    font-size: 16px;
+    font-weight: 200;
+    padding-block: 20px;
+  }
+
+  &__pic {
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #414142;
+  }
+
+  &__btn:hover {
+    background-color: rgb(242, 148, 66);
+    cursor: pointer;
+  }
+}
