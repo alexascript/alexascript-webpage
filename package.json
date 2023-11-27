@@ -10,7 +10,7 @@
   },
   "scripts": {
     "dev": "rm -rf .parcel-cache && npx parcel src/index.html",
-    "build": "rm -rf .parcel-cache && npx parcel build src/index.html --dist-dir output",
+    "build": "rm -rf .parcel-cache && npx parcel build src/index.html --dist-dir docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
