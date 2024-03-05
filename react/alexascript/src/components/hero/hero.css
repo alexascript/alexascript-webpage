@@ -1,0 +1,42 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(52, 58, 64, 1),
+    rgba(52, 58, 64, 0.9),
+    rgba(52, 58, 64, 0.6)
+  );
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  color: #f8f9fa;
+  padding-inline: 150px;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.hero__title {
+  font-family: "Roboto";
+  font-size: 64px;
+}
+
+.hero__text {
+  font-weight: 300;
+}
+
+.hero__btn {
+  width: 145px;
+  height: 54px;
+  background-color: #dc3545;
+  font-size: 32px;
+  font-weight: 600;
+  color: #f8f9fa;
+  border-radius: 4px;
+}
