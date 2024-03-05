@@ -1,18 +1,15 @@
 import "./hero.css";
 
-export function Hero({ title }) {
+export function Hero({ title, text, imageUrl, buttonCopy }) {
   return (
     <article className="hero">
       <div className="hero__content">
-        <h1 className="hero__title">Hi, I'm Alexandra Zapata</h1>
-        <p className="hero__text">
-          I'm Alexandra Zapata, a developer dedicated to making the world a
-          better place one line of code at a time.
-        </p>
-        <button className="hero__btn">Hire me</button>
+        <h1 className="hero__title"> {title} </h1>
+        <p className="hero__text">{text}</p>
+        <button className="hero__btn">{buttonCopy}</button>
       </div>
       <div className="hero__img">
-        <img src="/hero-pic.png" alt="cyberpunk visual concept" />
+        <img src={imageUrl} alt="cyberpunk visual concept" />
       </div>
     </article>
   );
