@@ -12,7 +12,7 @@ function App() {
       <Navbar title="Alexascript Homepage" />
       <Hero
         title="Hi, I'm Alexandra Zapata"
-        text="I'm Alexandra Zapata, a developer dedicated to making the world a better place one line of code at a time"
+        text="I'm Alexandra Zapata, a frontend developer from Medellin. Let's collaborate to bring your digital vision to life with creativity, precision, and a touch of magic."
         imageUrl="/hero-pic.png"
         buttonCopy="Hire me"
       />
