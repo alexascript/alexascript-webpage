@@ -1,7 +1,10 @@
 import { Navbar } from "./components/navbar/navbar";
 import { Hero } from "./components/hero/hero";
+import { Card } from "./components/card/card";
+import { data } from "./data";
 import "./reset.css";
 import "./App.css";
+import { CardList } from "./components/card/card-list";
 
 function App() {
   return (
@@ -13,6 +16,7 @@ function App() {
         imageUrl="/hero-pic.png"
         buttonCopy="Hire me"
       />
+      <CardList />
     </div>
   );
 }
