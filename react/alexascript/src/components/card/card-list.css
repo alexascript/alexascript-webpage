@@ -4,3 +4,7 @@
   justify-content: center;
   gap: 30px;
 }
+
+li:hover {
+  background-color: #d4670e;
+}
