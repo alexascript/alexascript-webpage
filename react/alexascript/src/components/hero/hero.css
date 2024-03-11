@@ -44,6 +44,10 @@
   cursor: pointer;
 }
 
+.hero__tag {
+  width: fit-content;
+}
+
 .hero__btn:hover {
   background-color: rgb(111, 98, 5);
 }
