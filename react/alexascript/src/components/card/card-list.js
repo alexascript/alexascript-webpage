@@ -14,7 +14,10 @@ export function CardList() {
           <Card platform="LinkedIn" logoImg="assets/linkedin-logo.png" />
         </li>
       </a>
-      <a>
+      <a
+        href="https://drive.google.com/file/d/1qYDW5FEKTcyoBgMqVHKlwlj45Xbk-rak/view?usp=sharing"
+        target="blank"
+      >
         <li>
           <Card platform="CV" logoImg="assets/cv-icon.png" />
         </li>
