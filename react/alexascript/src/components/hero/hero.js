@@ -6,7 +6,11 @@ export function Hero({ title, text, imageUrl, buttonCopy }) {
       <div className="hero__content">
         <h1 className="hero__title"> {title} </h1>
         <p className="hero__text">{text}</p>
-        <a href="https://www.linkedin.com/in/alexascript/" target="blank">
+        <a
+          className="hero__tag"
+          href="https://www.linkedin.com/in/alexascript/"
+          target="blank"
+        >
           <button className="hero__btn">{buttonCopy}</button>
         </a>
       </div>
